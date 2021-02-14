@@ -1,0 +1,197 @@
+/* i put all of that in State.css Because it's  change upon user interaction */
+
+
+@media screen and (max-width: 960px) and (min-width: 768px){
+    /* body{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    } */
+    
+    #a{
+        width: 960px;
+        height: 100px;
+    background-color: rgb(187, 181, 181);
+    border:1px solid rgb(119, 117, 117);
+    box-sizing: border-box;
+    
+    
+    }
+    div{display: block;}
+    /* main{
+        padding-right: 200px;
+    } */
+    #b{
+        float: left;
+        width: 200px;
+        height: 600px;
+    background-color: rgb(187, 181, 181);
+    border-left:1px solid rgb(119, 117, 117);
+    border-bottom:1px solid rgb(119, 117, 117);
+    border-right:1px solid rgb(119, 117, 117);
+    
+    box-sizing: border-box;
+    
+    }
+    
+    .cd{
+        float: left;
+        
+        width: 380px;
+        height: 200px;
+    background-color: rgb(187, 181, 181);
+    border-right:1px solid rgb(119, 117, 117);
+    border-bottom:1px solid rgb(119, 117, 117);
+    box-sizing: border-box;
+    
+    }
+    
+    #all{
+        width: 960px;
+    }
+    .efgh{
+    
+            float: left;
+            width: 190px;
+            height: 250px;
+        background-color: rgb(187, 181, 181);
+        border-right:1px solid rgb(119, 117, 117);
+        box-sizing: border-box;
+        border-bottom:1px solid rgb(119, 117, 117);
+        
+        
+    }
+    
+    #i{
+        float: left;
+            width: 760px;
+            height: 150px;
+        background-color: rgb(187, 181, 181);
+        border-right:1px solid rgb(119, 117, 117);
+        box-sizing: border-box;
+        border-bottom:1px solid rgb(119, 117, 117);
+         
+    }
+    }
+    
+    @media screen and (max-width: 768px) and (min-width: 480px){
+        /* body{
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        } */
+        
+        #a{
+            width: 480px;
+            height: 75px;
+        background-color: rgb(187, 181, 181);
+        border:1px solid rgb(119, 117, 117);
+        box-sizing: border-box;
+        
+        
+        }
+        div{display: block;}
+        /* main{
+            padding-right: 200px;
+        } */
+        #b{
+          
+            width: 480px;
+            height: 150px;
+        background-color: rgb(187, 181, 181);
+        border-left:1px solid rgb(119, 117, 117);
+        border-bottom:1px solid rgb(119, 117, 117);
+        border-right:1px solid rgb(119, 117, 117);
+        
+        box-sizing: border-box;
+        
+        }
+        
+        .cd{
+            
+            width: 480px;
+            height: 125px;
+        background-color: rgb(187, 181, 181);
+        border-right:1px solid rgb(119, 117, 117);
+        border-bottom:1px solid rgb(119, 117, 117);
+        box-sizing: border-box;
+        
+        }
+        
+        #all{
+            width: 480px;
+        }
+       
+       .E{
+        float: left;
+        width: 240px;
+        height: 250px;
+    background-color: rgb(187, 181, 181);
+    border-right:1px solid rgb(119, 117, 117);
+    box-sizing: border-box;
+    border-bottom:1px solid rgb(119, 117, 117);
+    
+       } 
+      
+       
+       .F{
+        float: left;
+        width: 240px;
+        height: 250px;
+    background-color: rgb(187, 181, 181);
+    border-right:1px solid rgb(119, 117, 117);
+    box-sizing: border-box;
+    border-bottom:1px solid rgb(119, 117, 117);
+    
+       } 
+       .G{
+        float: left;
+        width: 240px;
+        height: 250px;
+    background-color: rgb(187, 181, 181);
+    border-right:1px solid rgb(119, 117, 117);
+    box-sizing: border-box;
+    border-bottom:1px solid rgb(119, 117, 117);
+     
+       }
+       #i{
+          display: inline-block;
+        width: 480px;
+        height: 80px;
+    background-color: rgb(187, 181, 181);
+    border-right:1px solid rgb(119, 117, 117);
+    box-sizing: border-box;
+    border-bottom:1px solid rgb(119, 117, 117);
+     
+    }
+    
+       .H{
+        float: left;
+        width: 240px;
+        height: 250px;
+    background-color: rgb(187, 181, 181);
+    border-right:1px solid rgb(119, 117, 117);
+    box-sizing: border-box;
+    border-bottom:1px solid rgb(119, 117, 117);
+    
+       }
+    
+        }
+    
+        @media screen and (min-width: 961px){
+    
+    div{
+        visibility: hidden;
+    }
+    #all:after {
+        font-size: 40px;
+        visibility: visible;
+      
+        
+        content: "Reduce Screen Width To Show Content |^_^|";
+        
+    }
+    
+        }
