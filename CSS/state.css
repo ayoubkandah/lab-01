@@ -86,7 +86,7 @@
         #a{
             width: 480px;
             height: 75px;
-        background-color: rgb(187, 181, 181);
+        background-color:  rgb(236, 184, 184);
         border:1px solid rgb(119, 117, 117);
         box-sizing: border-box;
         
@@ -100,7 +100,7 @@
           
             width: 480px;
             height: 150px;
-        background-color: rgb(187, 181, 181);
+        background-color:  rgb(236, 184, 184);
         border-left:1px solid rgb(119, 117, 117);
         border-bottom:1px solid rgb(119, 117, 117);
         border-right:1px solid rgb(119, 117, 117);
@@ -113,7 +113,7 @@
             
             width: 480px;
             height: 125px;
-        background-color: rgb(187, 181, 181);
+        background-color:  rgb(236, 184, 184);
         border-right:1px solid rgb(119, 117, 117);
         border-bottom:1px solid rgb(119, 117, 117);
         box-sizing: border-box;
@@ -128,7 +128,7 @@
         float: left;
         width: 240px;
         height: 250px;
-    background-color: rgb(187, 181, 181);
+    background-color:  rgb(236, 184, 184);
     border-right:1px solid rgb(119, 117, 117);
     box-sizing: border-box;
     border-bottom:1px solid rgb(119, 117, 117);
@@ -140,7 +140,7 @@
         float: left;
         width: 240px;
         height: 250px;
-    background-color: rgb(187, 181, 181);
+    background-color:  rgb(236, 184, 184);
     border-right:1px solid rgb(119, 117, 117);
     box-sizing: border-box;
     border-bottom:1px solid rgb(119, 117, 117);
@@ -150,7 +150,7 @@
         float: left;
         width: 240px;
         height: 250px;
-    background-color: rgb(187, 181, 181);
+    background-color:  rgb(236, 184, 184);
     border-right:1px solid rgb(119, 117, 117);
     box-sizing: border-box;
     border-bottom:1px solid rgb(119, 117, 117);
@@ -160,7 +160,7 @@
           display: inline-block;
         width: 480px;
         height: 80px;
-    background-color: rgb(187, 181, 181);
+    background-color:  rgb(236, 184, 184);
     border-right:1px solid rgb(119, 117, 117);
     box-sizing: border-box;
     border-bottom:1px solid rgb(119, 117, 117);
@@ -171,7 +171,7 @@
         float: left;
         width: 240px;
         height: 250px;
-    background-color: rgb(187, 181, 181);
+    background-color: rgb(236, 184, 184);
     border-right:1px solid rgb(119, 117, 117);
     box-sizing: border-box;
     border-bottom:1px solid rgb(119, 117, 117);
