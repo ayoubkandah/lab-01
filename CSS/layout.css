@@ -1,38 +1,40 @@
-@media screen and (max-width: 768px) and (min-width: 480px){
 
- body{
-     background-color: rgba(100, 148, 237, 0.548);
- }
-}
-@media screen and (min-width: 961px){
 
-    body{
-        background-color: rgba(237, 212, 100, 0.548);
+   @media screen and  (min-width: 961px){
+
+
+    #all{
+        display: grid;
+
+        grid-template-columns: 200px  190px 190px 190px  190px ;
+        grid-template-rows: 100px  200px 250px 150px  ;
     }
-   
-   }
-   
-
-@media screen and  (min-width: 961px){
-
     #a{
+      
+        grid-column: 1/5;
+         
+        grid-row: 1;
+
             width: 960px;
             height: 100px;
-            background-color: rgb(118, 185, 185);
+            background-color: rgb(8, 140, 173);
                 border:1px solid  rgb(119, 117, 117);
         box-sizing: border-box;
         
         
         }
-        div{display: block;}
+
         /* main{
             padding-right: 200px;
         } */
-        #b{
-            float: left;
+        #b{  
+            grid-column: 1;
+         
+            grid-row: 2/4;
+        
             width: 200px;
             height: 600px;
-            background-color: rgb(118, 185, 185);    border-left:1px solid rgb(119, 117, 117);
+            background-color: rgb(90, 192, 192);    border-left:1px solid rgb(119, 117, 117);
         border-bottom:1px solid rgb(119, 117, 117);
         border-right:1px solid rgb(119, 117, 117);
         
@@ -40,9 +42,24 @@
         
         }
         
-        .cd{
-            float: left;
-            
+        #c{
+  
+            grid-column: 2/4;
+      
+            grid-row: 2;
+            width: 380px;
+            height: 200px;
+        background-color: rgb(118, 185, 185);
+        border-right:1px solid rgb(119, 117, 117);
+        border-bottom:1px solid rgb(119, 117, 117);
+        box-sizing: border-box;
+        
+        }
+        #d{
+            grid-column: 4/5;
+      
+            grid-row: 2;
+          
             width: 380px;
             height: 200px;
         background-color: rgb(118, 185, 185);
@@ -52,13 +69,51 @@
         
         }
         
-        #all{
-            margin: 0 auto;
-            width: 960px;
+       
+        #e{
+            grid-column-start: 2;
+         
+            grid-row-start: 3;
+       
+                width: 190px;
+                height: 250px;
+                background-color: rgb(118, 185, 185);        border-right:1px solid rgb(119, 117, 117);
+            box-sizing: border-box;
+            border-bottom:1px solid rgb(119, 117, 117);
+            
+            
         }
-        .efgh{
-        
-                float: left;
+        #f{
+            grid-column-start: 3;
+         
+            grid-row-start: 3;
+       
+                width: 190px;
+                height: 250px;
+                background-color: rgb(118, 185, 185);        border-right:1px solid rgb(119, 117, 117);
+            box-sizing: border-box;
+            border-bottom:1px solid rgb(119, 117, 117);
+            
+            
+        } 
+           #g{
+            grid-column-start: 4;
+         
+            grid-row-start: 3;
+       
+                width: 190px;
+                height: 250px;
+                background-color: rgb(118, 185, 185);        border-right:1px solid rgb(119, 117, 117);
+            box-sizing: border-box;
+            border-bottom:1px solid rgb(119, 117, 117);
+            
+            
+        }
+        #h{
+            grid-column-start: 5;
+         
+            grid-row-start: 3;
+       
                 width: 190px;
                 height: 250px;
                 background-color: rgb(118, 185, 185);        border-right:1px solid rgb(119, 117, 117);
@@ -68,117 +123,186 @@
             
         }
         
+        
         #i{
-            float: left;
+            grid-column: 2/5;
+         
+            grid-row-start: 4;
                 width: 760px;
                 height: 150px;
-                background-color: rgb(118, 185, 185);        border-right:1px solid rgb(119, 117, 117);
+                background-color: rgb(8, 140, 173);        border-right:1px solid rgb(119, 117, 117);
             box-sizing: border-box;
             border-bottom:1px solid rgb(119, 117, 117);
              
         }
-    }
+   }
     @media screen and (max-width: 960px) and (min-width: 768px){
-        /* body{
-            margin-left: 25px;
-            margin-right: 25px;
-            margin-top: 60px;
-            margin-bottom: 60px;
-        } */
-        
-        #a{
-            width: 960px;
-            height: 100px;
-        background-color: rgb(187, 181, 181);
-        border:1px solid rgb(119, 117, 117);
-        box-sizing: border-box;
-        
-        
-        }
-        div{display: block;}
-        /* main{
-            padding-right: 200px;
-        } */
-        #b{
-            float: left;
-            width: 200px;
-            height: 600px;
-        background-color: rgb(187, 181, 181);
-        border-left:1px solid rgb(119, 117, 117);
-        border-bottom:1px solid rgb(119, 117, 117);
-        border-right:1px solid rgb(119, 117, 117);
-        
-        box-sizing: border-box;
-        
-        }
-        
-        .cd{
-            float: left;
-            
-            width: 380px;
-            height: 200px;
-        background-color: rgb(187, 181, 181);
-        border-right:1px solid rgb(119, 117, 117);
-        border-bottom:1px solid rgb(119, 117, 117);
-        box-sizing: border-box;
-        
-        }
-        
         #all{
-            width: 960px;
+            display: grid;
+            margin-left: 15%;
+            margin-right: 15%;
+            grid-template-columns: 200px  190px 190px 190px  190px ;
+            grid-template-rows: 100px  200px 250px 150px  ;
         }
-        .efgh{
-        
-                float: left;
-                width: 190px;
-                height: 250px;
-            background-color: rgb(187, 181, 181);
-            border-right:1px solid rgb(119, 117, 117);
-            box-sizing: border-box;
-            border-bottom:1px solid rgb(119, 117, 117);
+        #a{
             
-            
-        }
-        
-        #i{
-            float: left;
-                width: 760px;
-                height: 150px;
-            background-color: rgb(187, 181, 181);
-            border-right:1px solid rgb(119, 117, 117);
-            box-sizing: border-box;
-            border-bottom:1px solid rgb(119, 117, 117);
+            grid-column: 1/5;
              
-        }
-        }
-        
-        @media screen and (max-width: 768px) and (min-width: 480px){
-            /* body{
-                margin-left: 25px;
-                margin-right: 25px;
-                margin-top: 60px;
-                margin-bottom: 60px;
-            } */
-            
-            #a{
-                width: 480px;
-                height: 75px;
-            background-color:  rgb(236, 184, 184);
-            border:1px solid rgb(119, 117, 117);
+            grid-row: 1;
+    
+                width: 960px;
+                height: 100px;
+                background-color: rgb(250, 189, 75);
+                    border:1px solid  rgb(119, 117, 117);
             box-sizing: border-box;
             
             
             }
-            div{display: block;}
+    
             /* main{
                 padding-right: 200px;
             } */
-            #b{
+            #b{  
+                grid-column: 1;
+             
+                grid-row: 2;
+            
+                width: 200px;
+                height: 450px;
+                background-color: rgb(218, 196, 99);    border-left:1px solid rgb(119, 117, 117);
+            border-bottom:1px solid rgb(119, 117, 117);
+            border-right:1px solid rgb(119, 117, 117);
+            
+            box-sizing: border-box;
+            
+            }
+            
+            #c{
+      
+                grid-column: 2/4;
+          
+                grid-row: 2;
+                width: 380px;
+                height: 200px;
+            background-color: rgb(218, 210, 178);
+            border-right:1px solid rgb(119, 117, 117);
+            border-bottom:1px solid rgb(119, 117, 117);
+            box-sizing: border-box;
+            
+            }
+            #d{
+                grid-column: 4/5;
+          
+                grid-row: 2;
               
+                width: 380px;
+                height: 200px;
+            background-color: rgb(218, 210, 178);
+            border-right:1px solid rgb(119, 117, 117);
+            border-bottom:1px solid rgb(119, 117, 117);
+            box-sizing: border-box;
+            
+            }
+            
+           
+            #e{
+                grid-column-start: 2;
+             
+                grid-row-start: 3;
+           
+                    width: 190px;
+                    height: 250px;
+                    background-color: rgb(218, 210, 178);       border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            }
+            #f{
+                grid-column-start: 3;
+             
+                grid-row-start: 3;
+           
+                    width: 190px;
+                    height: 250px;
+                    background-color: rgb(218, 210, 178);       border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            } 
+               #g{
+                grid-column-start: 4;
+             
+                grid-row-start: 3;
+           
+                    width: 190px;
+                    height: 250px;
+                    background-color: rgb(218, 210, 178);       border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            }
+            #h{
+                grid-column-start: 5;
+             
+                grid-row-start: 3;
+           
+                    width: 190px;
+                    height: 250px;
+                    background-color: rgb(218, 210, 178);       border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            }
+            
+            
+            #i{
+                grid-column: 1/4;
+             
+                grid-row-start: 4;
+                    width: 960px;
+                    height: 150px;
+                    background-color: rgb(250, 189, 75);        border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                 
+            }
+        }    
+    @media screen and (max-width: 767px) and (min-width: 480px){
+        #all{
+            display: grid;
+            margin-left: 15%;
+        
+            grid-template-columns: 240px 240px ;
+            grid-template-rows: 75px  150px 125px 125px 250px 250px 80px ;
+        }
+
+        #a{
+            
+         
+        grid-column: 1/2;
+               grid-row: 1;
+            width: 480px;
+            height: 75px;
+                background-color: rgb(32, 224, 73);
+                    border:1px solid  rgb(119, 117, 117);
+            box-sizing: border-box;
+            
+            
+            }
+    
+            /* main{
+                padding-right: 200px;
+            } */
+            #b{  
+                grid-column: 1/2;
+                grid-row: 2;
                 width: 480px;
                 height: 150px;
-            background-color:  rgb(236, 184, 184);
-            border-left:1px solid rgb(119, 117, 117);
+                background-color: rgb(221, 194, 105);    border-left:1px solid rgb(119, 117, 117);
             border-bottom:1px solid rgb(119, 117, 117);
             border-right:1px solid rgb(119, 117, 117);
             
@@ -186,75 +310,87 @@
             
             }
             
-            .cd{
-                
+            #c{
+                grid-column: 1/2;
+                grid-row: 3;
                 width: 480px;
                 height: 125px;
-            background-color:  rgb(236, 184, 184);
+            background-color: rgb(221, 194, 105); 
+            border-right:1px solid rgb(119, 117, 117);
+            border-bottom:1px solid rgb(119, 117, 117);
+            box-sizing: border-box;
+            
+            }
+            #d{
+                grid-column: 1/2;
+                grid-row: 4;
+                width: 480px;
+            height: 125px;  
+            background-color: rgb(221, 194, 105); 
             border-right:1px solid rgb(119, 117, 117);
             border-bottom:1px solid rgb(119, 117, 117);
             box-sizing: border-box;
             
             }
             
-            #all{
+           
+            #e{
+                grid-column: 1;
+                grid-row: 5;
+                width: 240px;
+                height: 250px;
+                    background-color: rgb(221, 194, 105);         border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            }
+            #f{
+                grid-column: 2;
+                grid-row: 5;
+                width: 240px;
+                height: 250px;
+                    background-color: rgb(221, 194, 105);         border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            } 
+               #g{
+                grid-column: 1;
+                grid-row: 6;
+                width: 240px;
+                height: 250px;
+                    background-color: rgb(221, 194, 105);       border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            }
+            #h{
+                grid-column: 2;
+                grid-row: 6;
+                width: 240px;
+                height: 250px;
+                    background-color: rgb(221, 194, 105);         border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                
+                
+            }
+            
+            
+            #i{
+                grid-column: 1/2;
+                grid-row: 7;
                 width: 480px;
+                height: 80px;
+                    background-color: rgb(32, 224, 73);     border-right:1px solid rgb(119, 117, 117);
+                box-sizing: border-box;
+                border-bottom:1px solid rgb(119, 117, 117);
+                 
             }
-           
-           .E{
-            float: left;
-            width: 240px;
-            height: 250px;
-        background-color:  rgb(236, 184, 184);
-        border-right:1px solid rgb(119, 117, 117);
-        box-sizing: border-box;
-        border-bottom:1px solid rgb(119, 117, 117);
-        
-           } 
-          
-           
-           .F{
-            float: left;
-            width: 240px;
-            height: 250px;
-        background-color:  rgb(236, 184, 184);
-        border-right:1px solid rgb(119, 117, 117);
-        box-sizing: border-box;
-        border-bottom:1px solid rgb(119, 117, 117);
-        
-           } 
-           .G{
-            float: left;
-            width: 240px;
-            height: 250px;
-        background-color:  rgb(236, 184, 184);
-        border-right:1px solid rgb(119, 117, 117);
-        box-sizing: border-box;
-        border-bottom:1px solid rgb(119, 117, 117);
-         
-           }
-           #i{
-              display: inline-block;
-            width: 480px;
-            height: 80px;
-        background-color:  rgb(236, 184, 184);
-        border-right:1px solid rgb(119, 117, 117);
-        box-sizing: border-box;
-        border-bottom:1px solid rgb(119, 117, 117);
-         
+    
         }
-        
-           .H{
-            float: left;
-            width: 240px;
-            height: 250px;
-        background-color: rgb(236, 184, 184);
-        border-right:1px solid rgb(119, 117, 117);
-        box-sizing: border-box;
-        border-bottom:1px solid rgb(119, 117, 117);
-        
-           }
-        
-            }
-        
-          
+    
+      
